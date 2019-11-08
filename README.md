@@ -3,6 +3,9 @@ Sunless Skies serialized game data export/import tool.
 
 Can be used for modding, translation, etc.
 
+## Download
+Go to [releases](../../releases), download latest `SkylessDump.zip`
+
 ## Usage
 ```
 SkylessDump.exe extract <dllPath> <assetPath> <jsonOutputPath>

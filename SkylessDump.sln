@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkylessDump", "SkylessDump\SkylessDump.csproj", "{E0B509E1-BB87-47E7-8F00-CAF17E8C46E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Depend", "Depend", "{38B1E209-BED4-42A7-8638-CDD4ECDC8844}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAssetLib", "UnityAssetLib\UnityAssetLib\UnityAssetLib.csproj", "{D1727F48-2255-46B2-92BE-613BCF2201FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0B509E1-BB87-47E7-8F00-CAF17E8C46E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B509E1-BB87-47E7-8F00-CAF17E8C46E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B509E1-BB87-47E7-8F00-CAF17E8C46E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B509E1-BB87-47E7-8F00-CAF17E8C46E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1727F48-2255-46B2-92BE-613BCF2201FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1727F48-2255-46B2-92BE-613BCF2201FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1727F48-2255-46B2-92BE-613BCF2201FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1727F48-2255-46B2-92BE-613BCF2201FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1727F48-2255-46B2-92BE-613BCF2201FE} = {38B1E209-BED4-42A7-8638-CDD4ECDC8844}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB6E79DF-79B8-4DB8-84F2-5F7BB3ED444C}
+	EndGlobalSection
+EndGlobal
